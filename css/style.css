@@ -1,0 +1,198 @@
+/* Common CSS Start */
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2{
+     font-family: 'Abril Fatface', cursive;
+     color:#0f2f44;
+ }
+h3,h4,h5,h6,button,a{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300px;
+}
+.container{
+    width:1170px;
+    margin: 0 auto;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+.text-align{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    display: inline-block;
+    text-decoration:none;
+}
+.space-between{
+    justify-content: space-between;
+}
+/* Common CSS End */
+/* Top Section Start */
+#top_bar{
+    background-color: #0f2f44;
+}
+#top_bar p{
+    color:#fefefe;
+    padding:13px 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* Top Section End */
+/* Nav Section Start */
+#primary_nav .row{
+    align-items: center;
+}
+#primary_nav ul li a{
+    font-weight: 500;
+    color:#222222;
+    line-height:24px;
+    font-size: 16px;
+    padding:40px 19px;
+    transition:0.5s;
+}
+#primary_nav ul li a:hover{
+    background-color: #fff9e6;
+    color:#ffc712;
+}
+#primary_nav ul li button{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    border:1px solid #e0e0e0;
+    background: none;
+    margin-left: 20px;
+}
+#primary_nav ul li button:hover{
+    background-color: #fff9e6;
+    color:#ffc712;
+    cursor:pointer;
+}
+/* Nav Section End */
+/* Banner Section CSS Start */
+#banner{
+    background-image: url(./../image_folder/Bizzency_banner_bg.jpg);
+    background-size: cover;
+    height:600px;
+    display: flex;
+    align-items: center;
+}
+#banner .inner_container{
+    width:40%;
+}
+#banner .inner_container h1{
+    font-size: 80px;
+    letter-spacing: 7px;
+    line-height: 70px;
+    font-weight: 400px;
+    padding-top: 14px;
+    padding-bottom: 17px;
+    text-transform: uppercase;
+}
+#banner .inner_container h3{
+    font-size: 50px;
+    font-weight: 300;
+    color:#0f2f44;
+    line-height: 24px;
+}
+#banner .inner_container h4{
+    font-size: 32px;
+    letter-spacing:17px;
+    font-weight: 400;
+    color:#9ea2d0;
+    text-transform: capitalize;
+}
+#banner .inner_container p{
+    font-size: 14px;
+    color:#444444;
+    line-height: 24px;
+}
+#banner .inner_container a{
+    padding: 14px 20px;
+    background-color: #ffffff;
+    color:#222222;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500px;
+    margin-top:33px;
+    width:164px;
+}
+#banner .inner_container a:hover{
+    color:#ffffff;
+    background-color: #8484bf;
+}
+#banner .inner_container button{
+   width:49px;
+   height:49px;
+   border-radius: 50%;
+   border: none;
+   background-color: #ffffff;
+   color:#8484bf;
+   font-size: 20px;
+   text-align: center;
+   cursor: pointer;
+   box-shadow: 0 7px 20px 0 rgba(132,132,191,0.15);
+   margin:20px;
+}
+
+#banner button:hover{
+    background-color: #8484bf;
+    color: #ffffff;
+}
+/* Banner Section CSS End */
+/* About Section CSS Start */
+#about{
+    margin:80px 0;
+}
+#about .about_bg{
+    width:570px;
+    margin-top: 100px;
+}
+#about .about_inner_container_info{
+    width:600px;
+}
+#about .about_inner_container_info p{
+    font-size: 14px;
+    font-weight: 300px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#about .about_inner_container_info h2{
+    font-size: 32px;
+    font-weight: 400px;
+}
+#about .about_inner_container_info p{
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 31px;
+}
+#about .about_inner_container_info ul li{
+    font-size: 16px;
+    line-height: 44px;
+    padding-left: 30px;
+}
+#about .about_inner_container_info a{
+    font-size: 20px;
+    line-height: 44px;
+    background-color: #ffffff;
+    color:#0f2f44;
+    padding: 2px 30px;
+    margin-top: 34px;
+    margin-right: 20px;
+    border-radius: 5px;
+    transition: 0.7s;
+}
+#about .about_inner_container_info a:hover{
+    background-color: #ffc712;
+}
+/* About Section CSS End */
